@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>File</class>
+ <widget class="QMainWindow" name="File">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Play">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>700</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fastforward">
+    <property name="geometry">
+     <rect>
+      <x>595</x>
+      <y>700</y>
+      <width>75</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fastbackward">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>700</y>
+      <width>75</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;&lt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Shuffle">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>700</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>Shuffle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Stop">
+    <property name="geometry">
+     <rect>
+      <x>535</x>
+      <y>700</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="Progressbar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>670</y>
+      <width>980</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Files</string>
+    </property>
+    <addaction name="actionOpen_file"/>
+    <addaction name="actionOpen_directory"/>
+    <addaction name="actionPlay_from_disc"/>
+    <addaction name="actionAdd_tags"/>
+    <addaction name="actionConvert_file_s"/>
+    <addaction name="actionCreate_playlist"/>
+   </widget>
+   <widget class="QMenu" name="menuSound">
+    <property name="title">
+     <string>Sound</string>
+    </property>
+    <addaction name="actionEqualizer"/>
+    <addaction name="actionIncrease_volume"/>
+    <addaction name="actionDecrease_volume"/>
+    <addaction name="actionMute"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSound"/>
+  </widget>
+  <action name="actionOpen_file">
+   <property name="text">
+    <string>Open file(s)</string>
+   </property>
+  </action>
+  <action name="actionOpen_directory">
+   <property name="text">
+    <string>Open directory</string>
+   </property>
+  </action>
+  <action name="actionPlay_from_disc">
+   <property name="text">
+    <string>Play from disc</string>
+   </property>
+  </action>
+  <action name="actionEqualizer">
+   <property name="text">
+    <string>Equalizer</string>
+   </property>
+  </action>
+  <action name="actionIncrease_volume">
+   <property name="text">
+    <string>Increase volume</string>
+   </property>
+  </action>
+  <action name="actionDecrease_volume">
+   <property name="text">
+    <string>Decrease volume</string>
+   </property>
+  </action>
+  <action name="actionMute">
+   <property name="text">
+    <string>Mute</string>
+   </property>
+  </action>
+  <action name="actionAdd_tags">
+   <property name="text">
+    <string>Edit metadata</string>
+   </property>
+  </action>
+  <action name="actionConvert_file_s">
+   <property name="text">
+    <string>Convert file(s)</string>
+   </property>
+  </action>
+  <action name="actionCreate_playlist">
+   <property name="text">
+    <string>Create playlist</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
