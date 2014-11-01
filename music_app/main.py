@@ -27,6 +27,7 @@ class Main(QtGui.QMainWindow):
         self.ui.actionCreate_playlist.triggered.connect(menu.create_playlist)
         self.ui.actionEqualizer.triggered.connect(menu.equalizer)
 
+        #playerbinds
         self.ui.Fastbackward.clicked.connect(player.fast_backward)
         self.ui.Fastforward.clicked.connect(player.fast_forward)
         self.ui.Shuffle.clicked.connect(player.shuffle)
