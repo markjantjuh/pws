@@ -20,7 +20,7 @@ class Main(QtGui.QMainWindow):
         #bind functions to UI
 
         #menubinds
-        self.ui.actionOpen_file.triggered.connect(menu.open_file)
+        self.ui.actionOpen_library.triggered.connect(menu.open_library)
         self.ui.actionAdd_tags.triggered.connect(menu.add_tags)
         self.ui.actionPlay_from_disc.triggered.connect(menu.play_from_disk)
         self.ui.actionConvert_file_s.triggered.connect(menu.convert_file_s)
