@@ -1,10 +1,8 @@
 __author__ = 'MarkJan'
 def open_file():
-    pass
         def selectfile():
             lineEdit.setText(QFileDialog.getOpenFileName())
-            pushButton.clicked.connect(selectFile)
-
+            open_library.triggered.connect(selectFile)
 def add_tags():
     pass
 
