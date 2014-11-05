@@ -134,7 +134,7 @@
     <property name="title">
      <string>Files</string>
     </property>
-    <addaction name="actionOpen_file"/>
+    <addaction name="open_library"/>
     <addaction name="actionOpen_directory"/>
     <addaction name="actionPlay_from_disc"/>
     <addaction name="actionAdd_tags"/>
@@ -153,7 +153,7 @@
    <addaction name="menuFile"/>
    <addaction name="menuSound"/>
   </widget>
-  <action name="actionOpen_file">
+  <action name="open_library">
    <property name="text">
     <string>Open file(s)</string>
    </property>

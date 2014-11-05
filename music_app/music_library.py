@@ -1,6 +1,6 @@
 __author__ = 'MarkJan'
 
-def open_file():
+def open_library():
     pass
 
 def add_tags(file):
