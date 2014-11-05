@@ -135,20 +135,20 @@
      <string>Files</string>
     </property>
     <addaction name="open_library"/>
-    <addaction name="actionOpen_directory"/>
-    <addaction name="actionPlay_from_disc"/>
-    <addaction name="actionAdd_tags"/>
-    <addaction name="actionConvert_file_s"/>
-    <addaction name="actionCreate_playlist"/>
+    <addaction name="open_directory"/>
+    <addaction name="play_from_disc"/>
+    <addaction name="add_tags"/>
+    <addaction name="convert_files"/>
+    <addaction name="create_playlist"/>
    </widget>
    <widget class="QMenu" name="menuSound">
     <property name="title">
      <string>Sound</string>
     </property>
-    <addaction name="actionEqualizer"/>
-    <addaction name="actionIncrease_volume"/>
-    <addaction name="actionDecrease_volume"/>
-    <addaction name="actionMute"/>
+    <addaction name="equalizer"/>
+    <addaction name="upvolume"/>
+    <addaction name="downvolume"/>
+    <addaction name="mute"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuSound"/>
@@ -158,47 +158,47 @@
     <string>Open file(s)</string>
    </property>
   </action>
-  <action name="actionOpen_directory">
+  <action name="open_directory">
    <property name="text">
     <string>Open directory</string>
    </property>
   </action>
-  <action name="actionPlay_from_disc">
+  <action name="play_from_disc">
    <property name="text">
     <string>Play from disc</string>
    </property>
   </action>
-  <action name="actionEqualizer">
+  <action name="equalizer">
    <property name="text">
     <string>Equalizer</string>
    </property>
   </action>
-  <action name="actionIncrease_volume">
+  <action name="upvolume">
    <property name="text">
     <string>Increase volume</string>
    </property>
   </action>
-  <action name="actionDecrease_volume">
+  <action name="downvolume">
    <property name="text">
     <string>Decrease volume</string>
    </property>
   </action>
-  <action name="actionMute">
+  <action name="mute">
    <property name="text">
     <string>Mute</string>
    </property>
   </action>
-  <action name="actionAdd_tags">
+  <action name="add_tags">
    <property name="text">
-    <string>Edit metadata</string>
+    <string>Tags</string>
    </property>
   </action>
-  <action name="actionConvert_file_s">
+  <action name="convert_files">
    <property name="text">
     <string>Convert file(s)</string>
    </property>
   </action>
-  <action name="actionCreate_playlist">
+  <action name="create_playlist">
    <property name="text">
     <string>Create playlist</string>
    </property>
