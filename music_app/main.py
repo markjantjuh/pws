@@ -7,7 +7,7 @@ from PyQt4 import QtGui
 
 import menu
 import player
-from music_app.user_interface.user_interface import Ui_File
+from music_app.user_interface.main_ui import Ui_File
 
 
 
