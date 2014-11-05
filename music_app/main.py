@@ -2,11 +2,13 @@ __author__ = 'MarkJan'
 
 #imports
 import sys
-import menu
-import player
 
 from PyQt4 import QtGui
-from user_interface import Ui_File
+
+import menu
+import player
+from music_app.user_interface.user_interface import Ui_File
+
 
 
 #application
