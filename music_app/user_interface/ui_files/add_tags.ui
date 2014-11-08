@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Add tags</string>
   </property>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="line_title">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -35,7 +35,7 @@
     </font>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="line_genre">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -57,7 +57,7 @@
     </font>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_3">
+  <widget class="QLineEdit" name="line_artist">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -79,7 +79,7 @@
     </font>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_4">
+  <widget class="QLineEdit" name="line_album">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -349,7 +349,7 @@
     <string>Info</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_5">
+  <widget class="QLineEdit" name="line_bpm">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -371,7 +371,7 @@
     </font>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_6">
+  <widget class="QLineEdit" name="line_key">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -393,7 +393,7 @@
     </font>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_7">
+  <widget class="QLineEdit" name="line_info">
    <property name="geometry">
     <rect>
      <x>190</x>
@@ -415,7 +415,7 @@
     </font>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_8">
+  <widget class="QLineEdit" name="line_year">
    <property name="geometry">
     <rect>
      <x>190</x>

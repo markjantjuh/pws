@@ -45,7 +45,12 @@ class Main(QtGui.QMainWindow):
         self.new_window.show()
 
     def open_library(self):
-        pass
+        open_library.triggered.QtGui.QFileDialog.getOpenFileName()
+        openFile = QtGui.QAction(QtGui.QIcon('open.png'), 'Open', self)
+        openFile.setShortcut('Ctrl+O')
+        openFile.setStatusTip('Open new File')
+        openFile.triggered.connect(self.showDialog)
+
 
     def play_from_disk(self):
         pass
