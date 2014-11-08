@@ -4,7 +4,6 @@ __author__ = 'MarkJan'
 import sys
 
 from PyQt4 import QtGui
-
 from music_app.user_interface.main_ui import Ui_File
 from user_interface.playlist_ui import Ui_playlist_dialog
 from user_interface.add_tags_ui import Ui_add_tags_dialog
@@ -18,7 +17,6 @@ class Main(QtGui.QMainWindow):
         self.ui.setupUi(self)
 
         #bind functions to UI
-
         #menubinds
         self.ui.open_library.triggered.connect(self.open_library)
         self.ui.add_tags.triggered.connect(self.add_tags)
@@ -37,6 +35,9 @@ class Main(QtGui.QMainWindow):
     def create_playlist(self):
         self.new_window = PlaylistUi()
         self.new_window.show()
+
+        #get input and call create_playlist
+
 
     def add_tags(self):
         self.new_window = AddTagsUi()

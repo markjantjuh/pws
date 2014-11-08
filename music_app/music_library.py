@@ -1,8 +1,7 @@
 __author__ = 'MarkJan'
 
 #imports
-import json
-import os
+import json, os
 from os.path import basename
 
 def open_library(path):
@@ -67,7 +66,7 @@ def readTagFile(tag_file_name):
 
     return tag_file_data
 
-def edit_tags(file, tag, new_data):
+def editTags(file, tag, new_data):
     #edit the tag file
 
     tag_file_data = readTagFile(file)
