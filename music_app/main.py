@@ -2,11 +2,13 @@ __author__ = 'MarkJan'
 
 #imports
 import sys
-
 from PyQt4 import QtGui
+
 from music_app.user_interface.main_ui import Ui_File
 from user_interface.playlist_ui import Ui_playlist_dialog
 from user_interface.add_tags_ui import Ui_add_tags_dialog
+
+import playlist
 
 #application
 class Main(QtGui.QMainWindow):
@@ -37,7 +39,6 @@ class Main(QtGui.QMainWindow):
         self.new_window.show()
 
         #get input and call create_playlist
-
 
     def add_tags(self):
         self.new_window = AddTagsUi()
@@ -77,10 +78,13 @@ class PlaylistUi(QtGui.QMainWindow):
         self.ui = Ui_playlist_dialog()
         self.ui.setupUi(self)
 
-        self.ui.button_create.clicked.connect(self.plaalist)
+        self.ui.button_create.clicked.connect(self.createPlaylist)
 
-    def plaalist(self):
-        print "DE FUNCTIE WERKT HOOR"
+    def createPlaylist(self):
+        self.name = str(self.ui.textbox_name.text())
+        playlist.createPlaylist(self.name)
+
+        self.close()
 
 class AddTagsUi(QtGui.QMainWindow):
     def __init__(self):
