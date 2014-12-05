@@ -22,6 +22,11 @@
      <height>20</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+    </font>
+   </property>
   </widget>
   <widget class="QLabel" name="label_playlist">
    <property name="geometry">
@@ -34,7 +39,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Comic Sans MS</family>
+     <family>Century Gothic</family>
      <pointsize>10</pointsize>
     </font>
    </property>
@@ -51,6 +56,11 @@
      <height>23</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+    </font>
+   </property>
    <property name="text">
     <string>Create</string>
    </property>
@@ -63,6 +73,11 @@
      <width>75</width>
      <height>23</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+    </font>
    </property>
    <property name="text">
     <string>Cancel</string>
