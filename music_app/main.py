@@ -75,6 +75,24 @@ class Main(QtGui.QMainWindow):
     def stop_sound(self):
         pass
 
+"""
+
+class Table(QtGui.QMainWindow):
+    def __init__(self):
+        super(Table, self).__init__(self)
+        layout = QtGui.QGridLayout()
+        self.led = QtGui.QLineEdit("Playlist")
+        self.table = QtGui.QTableWidget()
+        self.table.setRowCount(5)
+        self.table.setColumnCount(5)
+        layout.addWidget(self.led, 0, 0)
+        layout.addWidget(self.table, 1, 0)
+        self.table.setItem(1, 0, QtGui.QTableWidgetItem(self.led.text()))
+        self.setLayout(layout)
+
+"""
+
+
 class PlaylistUi(QtGui.QMainWindow):
     def __init__(self):
         #initialize the UI
