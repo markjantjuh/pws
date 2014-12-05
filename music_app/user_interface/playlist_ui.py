@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'playlist.ui'
 #
-# Created: Wed Nov 05 16:55:00 2014
+# Created: Fri Dec 05 12:30:32 2014
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -23,25 +23,34 @@ except AttributeError:
     def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-class Ui_playlist_dialog(QtGui.QMainWindow):
+class Ui_playlist_dialog(object):
     def setupUi(self, playlist_dialog):
         playlist_dialog.setObjectName(_fromUtf8("playlist_dialog"))
         playlist_dialog.resize(294, 84)
         self.textbox_name = QtGui.QLineEdit(playlist_dialog)
         self.textbox_name.setGeometry(QtCore.QRect(70, 20, 204, 20))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Century Gothic"))
+        self.textbox_name.setFont(font)
         self.textbox_name.setObjectName(_fromUtf8("textbox_name"))
         self.label_playlist = QtGui.QLabel(playlist_dialog)
         self.label_playlist.setGeometry(QtCore.QRect(10, 20, 51, 21))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Comic Sans MS"))
+        font.setFamily(_fromUtf8("Century Gothic"))
         font.setPointSize(10)
         self.label_playlist.setFont(font)
         self.label_playlist.setObjectName(_fromUtf8("label_playlist"))
         self.button_create = QtGui.QPushButton(playlist_dialog)
         self.button_create.setGeometry(QtCore.QRect(110, 50, 75, 23))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Century Gothic"))
+        self.button_create.setFont(font)
         self.button_create.setObjectName(_fromUtf8("button_create"))
         self.button_cancel = QtGui.QPushButton(playlist_dialog)
         self.button_cancel.setGeometry(QtCore.QRect(200, 50, 75, 23))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Century Gothic"))
+        self.button_cancel.setFont(font)
         self.button_cancel.setObjectName(_fromUtf8("button_cancel"))
 
         self.retranslateUi(playlist_dialog)

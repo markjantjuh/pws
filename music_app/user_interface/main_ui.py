@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'gui.ui'
 #
-# Created: Wed Nov 05 17:13:40 2014
+# Created: Fri Dec 05 12:30:09 2014
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ except AttributeError:
     def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-class Ui_File(QtGui.QMainWindow):
+class Ui_File(object):
     def setupUi(self, File):
         File.setObjectName(_fromUtf8("File"))
         File.resize(1000, 800)
@@ -32,35 +32,38 @@ class Ui_File(QtGui.QMainWindow):
         self.Play = QtGui.QPushButton(self.centralwidget)
         self.Play.setGeometry(QtCore.QRect(475, 700, 50, 50))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Comic Sans MS"))
+        font.setFamily(_fromUtf8("Century Gothic"))
         self.Play.setFont(font)
         self.Play.setObjectName(_fromUtf8("Play"))
         self.Fastforward = QtGui.QPushButton(self.centralwidget)
         self.Fastforward.setGeometry(QtCore.QRect(595, 700, 75, 50))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Comic Sans MS"))
+        font.setFamily(_fromUtf8("Century Gothic"))
         self.Fastforward.setFont(font)
         self.Fastforward.setObjectName(_fromUtf8("Fastforward"))
         self.Fastbackward = QtGui.QPushButton(self.centralwidget)
         self.Fastbackward.setGeometry(QtCore.QRect(330, 700, 75, 50))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Comic Sans MS"))
+        font.setFamily(_fromUtf8("Century Gothic"))
         self.Fastbackward.setFont(font)
         self.Fastbackward.setObjectName(_fromUtf8("Fastbackward"))
         self.Shuffle = QtGui.QPushButton(self.centralwidget)
         self.Shuffle.setGeometry(QtCore.QRect(415, 700, 50, 50))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Comic Sans MS"))
+        font.setFamily(_fromUtf8("Century Gothic"))
         self.Shuffle.setFont(font)
         self.Shuffle.setObjectName(_fromUtf8("Shuffle"))
         self.Stop = QtGui.QPushButton(self.centralwidget)
         self.Stop.setGeometry(QtCore.QRect(535, 700, 50, 50))
         font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Comic Sans MS"))
+        font.setFamily(_fromUtf8("Century Gothic"))
         self.Stop.setFont(font)
         self.Stop.setObjectName(_fromUtf8("Stop"))
         self.Progressbar = QtGui.QSlider(self.centralwidget)
         self.Progressbar.setGeometry(QtCore.QRect(10, 670, 980, 19))
+        font = QtGui.QFont()
+        font.setFamily(_fromUtf8("Century Gothic"))
+        self.Progressbar.setFont(font)
         self.Progressbar.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.Progressbar.setOrientation(QtCore.Qt.Horizontal)
         self.Progressbar.setObjectName(_fromUtf8("Progressbar"))
