@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'gui.ui'
 #
-# Created: Fri Dec 05 12:30:09 2014
+# Created: Fri Dec 05 13:07:50 2014
 #      by: PyQt4 UI code generator 4.11.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -67,6 +67,12 @@ class Ui_File(object):
         self.Progressbar.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.Progressbar.setOrientation(QtCore.Qt.Horizontal)
         self.Progressbar.setObjectName(_fromUtf8("Progressbar"))
+        self.Volume = phonon.Phonon.VolumeSlider(self.centralwidget)
+        self.Volume.setGeometry(QtCore.QRect(690, 710, 109, 22))
+        self.Volume.setObjectName(_fromUtf8("Volume"))
+        self.Playlist = QtGui.QTableView(self.centralwidget)
+        self.Playlist.setGeometry(QtCore.QRect(10, 10, 980, 650))
+        self.Playlist.setObjectName(_fromUtf8("Playlist"))
         File.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(File)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1000, 21))
@@ -132,3 +138,4 @@ class Ui_File(object):
         self.convert_files.setText(_translate("File", "Convert file(s)", None))
         self.create_playlist.setText(_translate("File", "Create playlist", None))
 
+from PyQt4 import phonon

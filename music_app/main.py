@@ -51,7 +51,6 @@ class Main(QtGui.QMainWindow):
         openFile.setStatusTip('Open new File')
         openFile.triggered.connect(self.showDialog)
 
-
     def play_from_disk(self):
         pass
 
